@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Air Compressor Automatic Drain</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <span id="markdown-mermaid" aria-hidden="true" data-config="{&quot;darkModeTheme&quot;:&quot;vscode&quot;,&quot;lightModeTheme&quot;:&quot;vscode&quot;,&quot;maxTextSize&quot;:50000,&quot;clickDrag&quot;:&quot;alt&quot;,&quot;showControls&quot;:&quot;onHoverOrFocus&quot;,&quot;resizable&quot;:true,&quot;maxHeight&quot;:&quot;&quot;}"></span>
+				<h1 id="air-compressor-automatic-drain">Air Compressor Automatic Drain</h1>
+<p>This project is an adaptive air compressor automatic drain system.  There are examples of products
+on the market that use a timer to cycle a solenoid valve on the tank drain to release any moisture
+that has condensed at the bottom of the tank.  The problem with these devices is that they cycle
+periodically (such as every 10 minutes) wether they need to or not.  For compressors that run only
+sporadically, such as in a home shop, this causes aire loss and needless extra cycling of the compressor.</p>
+<p>What this project does is sense when the compressor runs, then start a timer after it shuts off.
+After some period of time (to allow condensant to accumulate), the drain valve is cycled.  The
+drain valve is then cycled again 1 hour after the last run to drain any additional accumulated
+condenstant.  After that, the drain valve is not cycled again until the compressor is run
+again.  This allows the system to efficiently drain the condensant water without needlessly
+cycling the drain valve.</p>
+<h2 id="algorithm">Algorithm</h2>
+<h3 id="assumptionsconventions">Assumptions/Conventions</h3>
+<ul>
+<li>The compressor (or other sensed system) is identified as the &quot;controlling&quot; load.</li>
+<li>The valve (or other driven system) is identified as the &quot;controlled&quot; load.</li>
+<li>The operation of the system is controlled by a state machine.</li>
+</ul>
+<h3 id="state-machine">State Machine</h3>
+<table>
+<thead>
+<tr>
+<th>State (name)</th>
+<th>Stopped</th>
+<th>Running</th>
+<th>Timeout</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S0 (Idle)</td>
+<td>S0</td>
+<td>S1</td>
+<td>S0</td>
+</tr>
+<tr>
+<td>S1 (Armed)</td>
+<td>S2</td>
+<td>S1</td>
+<td>S0</td>
+</tr>
+<tr>
+<td>S2 (Triggered)</td>
+<td>S2</td>
+<td>S1</td>
+<td>S3</td>
+</tr>
+<tr>
+<td>S3 (Drain)</td>
+<td>S0,S4(1)</td>
+<td>S1</td>
+<td>S0</td>
+</tr>
+<tr>
+<td>S4 (Followup)</td>
+<td>S4</td>
+<td>S1</td>
+<td>S5</td>
+</tr>
+<tr>
+<td>S5 (Drain2)</td>
+<td>S0</td>
+<td>S1</td>
+<td>S0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>S0: Represents the idle state, where the system is waiting on the detection of the
+controlling load to be turned on.  This is the initial state the system enters
+after power on or a watchdog reset.</li>
+<li>S1: Represents the &quot;armed&quot; state where the controlling load has been detected to
+be running.  As long as the controlling load is running, the system will be in this
+state. The armed state is entered from any state when the controlling load is
+running.</li>
+<li>S2: Represents the triggered state after the controlling load has stopped running
+and represents the start of the initial countdown period to operate the drain. If
+the controlling load does not restart before the countdown timer expires, the
+system will transition to the draining state.</li>
+<li>S3: Represents the &quot;draining&quot; state.  This is where the drain valve is opened
+for one second to drain the condensant water from the tank (or other operation
+depending on application). Once the draining time has expired, the system will
+transition to either idle or followup state (S0 or S4, see Note 1).</li>
+<li>S4: This represents the followup countdown interval.  It is entered only after
+a successfull drain cycle and  the followup  time intervals are selected by the
+option switches.</li>
+<li>S5:</li>
+</ul>
+
+            
+            
+        </body>
+        </html>
