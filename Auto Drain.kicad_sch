@@ -3791,193 +3791,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4004"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4004"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4004_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4004_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -4126,6 +3939,193 @@
 				)
 			)
 			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SM4004"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM4004"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MELF"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400V 1A General Purpose Rectifier Diode, MELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*MELF*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM4004_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM4004_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4876,7 +4876,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Microchip_PIC16:PIC16F1829-ISS"
+		(symbol "MCU_Microchip_PIC16:PIC16F18346-SO"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4886,40 +4886,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -24.13 22.86 0)
+				(at -16.51 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "PIC16F1829-ISS"
-				(at -24.13 20.32 0)
+			(property "Value" "PIC16F18346-SO"
+				(at 9.144 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/41440C.pdf"
-				(at 0 -13.97 0)
+			(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+				(at -0.254 -20.066 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4929,7 +4916,18 @@
 					)
 				)
 			)
-			(property "Description" "Flash-Based, 8-Bit CMOS Microcontrollers, SSOP"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/40001839B.pdf"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "16384W FLASH, 2048B RAM, 256B EEPROM, SOIC-20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4940,7 +4938,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Flash-Based 8-Bit CMOS Microcontroller Low Power"
+			(property "ki_keywords" "FLASH-Based 8-Bit CMOS Microcontroller Low Power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4951,7 +4949,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*7.5x12.8mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4962,10 +4960,10 @@
 					)
 				)
 			)
-			(symbol "PIC16F1829-ISS_0_1"
+			(symbol "PIC16F18346-SO_0_1"
 				(rectangle
-					(start -24.13 19.05)
-					(end 24.13 -16.51)
+					(start -17.78 15.24)
+					(end 17.78 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4975,10 +4973,10 @@
 					)
 				)
 			)
-			(symbol "PIC16F1829-ISS_1_1"
+			(symbol "PIC16F18346-SO_1_1"
 				(pin power_in line
-					(at 0 22.86 270)
-					(length 3.81)
+					(at 0 17.78 270)
+					(length 2.54)
 					(name "VDD"
 						(effects
 							(font
@@ -4995,8 +4993,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 0 0)
-					(length 3.81)
+					(at -20.32 0 0)
+					(length 2.54)
 					(name "RA5"
 						(effects
 							(font
@@ -5013,8 +5011,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 2.54 0)
-					(length 3.81)
+					(at -20.32 2.54 0)
+					(length 2.54)
 					(name "RA4"
 						(effects
 							(font
@@ -5031,9 +5029,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 5.08 0)
-					(length 3.81)
-					(name "RA3/MCLR/VPP"
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "RA3/~{MCLR}/VPP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5049,8 +5047,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 5.08 180)
-					(length 3.81)
+					(at 20.32 0 180)
+					(length 2.54)
 					(name "RC5"
 						(effects
 							(font
@@ -5067,8 +5065,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 2.54 180)
-					(length 3.81)
+					(at 20.32 2.54 180)
+					(length 2.54)
 					(name "RC4"
 						(effects
 							(font
@@ -5085,8 +5083,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 0 180)
-					(length 3.81)
+					(at 20.32 5.08 180)
+					(length 2.54)
 					(name "RC3"
 						(effects
 							(font
@@ -5103,8 +5101,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 7.62 180)
-					(length 3.81)
+					(at 20.32 -2.54 180)
+					(length 2.54)
 					(name "RC6"
 						(effects
 							(font
@@ -5121,8 +5119,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 10.16 180)
-					(length 3.81)
+					(at 20.32 -5.08 180)
+					(length 2.54)
 					(name "RC7"
 						(effects
 							(font
@@ -5139,8 +5137,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -12.7 0)
-					(length 3.81)
+					(at -20.32 -12.7 0)
+					(length 2.54)
 					(name "RB7"
 						(effects
 							(font
@@ -5157,8 +5155,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -10.16 0)
-					(length 3.81)
+					(at -20.32 -10.16 0)
+					(length 2.54)
 					(name "RB6"
 						(effects
 							(font
@@ -5175,8 +5173,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -7.62 0)
-					(length 3.81)
+					(at -20.32 -7.62 0)
+					(length 2.54)
 					(name "RB5"
 						(effects
 							(font
@@ -5193,8 +5191,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -5.08 0)
-					(length 3.81)
+					(at -20.32 -5.08 0)
+					(length 2.54)
 					(name "RB4"
 						(effects
 							(font
@@ -5211,8 +5209,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -2.54 180)
-					(length 3.81)
+					(at 20.32 7.62 180)
+					(length 2.54)
 					(name "RC2"
 						(effects
 							(font
@@ -5229,8 +5227,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -5.08 180)
-					(length 3.81)
+					(at 20.32 10.16 180)
+					(length 2.54)
 					(name "RC1"
 						(effects
 							(font
@@ -5247,8 +5245,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -7.62 180)
-					(length 3.81)
+					(at 20.32 12.7 180)
+					(length 2.54)
 					(name "RC0"
 						(effects
 							(font
@@ -5265,8 +5263,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 7.62 0)
-					(length 3.81)
+					(at -20.32 7.62 0)
+					(length 2.54)
 					(name "RA2"
 						(effects
 							(font
@@ -5283,8 +5281,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 10.16 0)
-					(length 3.81)
+					(at -20.32 10.16 0)
+					(length 2.54)
 					(name "RA1/ICSPCLK"
 						(effects
 							(font
@@ -5301,8 +5299,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 12.7 0)
-					(length 3.81)
+					(at -20.32 12.7 0)
+					(length 2.54)
 					(name "RA0/ICSPDAT"
 						(effects
 							(font
@@ -5319,8 +5317,8 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -20.32 90)
-					(length 3.81)
+					(at 0 -17.78 90)
+					(length 2.54)
 					(name "VSS"
 						(effects
 							(font
@@ -5329,163 +5327,6 @@
 						)
 					)
 					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:LM7805_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM7805_TO220"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM7805_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM7805_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5793,6 +5634,162 @@
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:LT1117-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT1117-3.3"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223/TO-263"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223* TO?263*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LT1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7591,6 +7588,17 @@
 		)
 		(uuid "a3cc3b5f-d13c-4b5b-bbda-3816b08e0d62")
 	)
+	(text "Current system state is displayed\non the 7-segment LED."
+		(exclude_from_sim no)
+		(at 274.574 221.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8453643-1b37-4fcf-8320-3cb6241f418b")
+	)
 	(text "Options switch settings:\n00xx - Cycle after turn off.\n01xx - Cycle 10 minutes after turn off.\n10xx - Cycle 30 minutes after turn off. \n11xx - Cycle 1 hour after turn off. \nxx00 - No additional cycle.\nxx01 - Additional cycle 1 hour after last cycle.\nxx10 - Additional cycle 2 hours after last cycle.\nxx11 - Additional cycle 3 hours after last cycle."
 		(exclude_from_sim no)
 		(at 274.828 193.294 0)
@@ -7625,7 +7633,7 @@
 		(uuid "0f53cf6d-5603-4a6f-b6bc-7614e9f5a2b0")
 	)
 	(junction
-		(at 325.12 189.23)
+		(at 320.04 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "150a00e3-4bb8-4723-a4d8-e34577028862")
@@ -7787,13 +7795,19 @@
 		(uuid "af304233-dce6-455d-8cc1-68bb354251b5")
 	)
 	(junction
+		(at 175.26 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4b42e4-314d-4d88-8b70-fe1faa5fc718")
+	)
+	(junction
 		(at 175.26 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "badd189c-53e3-4203-b9ad-5cc4d4832f3a")
 	)
 	(junction
-		(at 325.12 171.45)
+		(at 320.04 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c89c6b02-22ba-4320-ba5c-13f5f97fbf4a")
@@ -7841,12 +7855,6 @@
 		(uuid "e6401048-c4ca-4fee-9ac6-8df14031bb9f")
 	)
 	(junction
-		(at 175.26 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e672f005-c77e-4b50-9a9e-36b394757672")
-	)
-	(junction
 		(at 295.91 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7877,11 +7885,11 @@
 		(uuid "fac60797-d132-495b-8bf9-d15fbc8596c5")
 	)
 	(no_connect
-		(at 204.47 166.37)
+		(at 212.09 166.37)
 		(uuid "3e81d991-5687-483e-bc3a-ee21fa53a143")
 	)
 	(no_connect
-		(at 204.47 158.75)
+		(at 212.09 161.29)
 		(uuid "45301580-8769-46ff-9f41-777c047262e6")
 	)
 	(wire
@@ -8086,7 +8094,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 168.91) (xy 276.86 168.91)
+			(xy 252.73 168.91) (xy 276.86 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8096,7 +8104,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 161.29) (xy 260.35 161.29)
+			(xy 271.78 161.29) (xy 252.73 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8133,16 +8141,6 @@
 			(type default)
 		)
 		(uuid "1491ba64-822a-4db5-9bcf-0ba67cad5b49")
-	)
-	(wire
-		(pts
-			(xy 124.46 72.39) (xy 124.46 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16747afa-2117-48fb-b236-10d299ad1187")
 	)
 	(wire
 		(pts
@@ -8216,7 +8214,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 222.25) (xy 191.77 176.53)
+			(xy 191.77 222.25) (xy 191.77 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8316,7 +8314,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 156.21) (xy 311.15 156.21)
+			(xy 298.45 156.21) (xy 312.42 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8366,7 +8364,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 173.99) (xy 194.31 173.99)
+			(xy 194.31 176.53) (xy 212.09 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8546,7 +8544,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 171.45) (xy 204.47 171.45)
+			(xy 196.85 173.99) (xy 212.09 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8556,7 +8554,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 165.1) (xy 335.28 165.1)
+			(xy 335.28 140.97) (xy 330.2 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8626,7 +8624,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 185.42) (xy 325.12 193.04)
+			(xy 320.04 161.29) (xy 320.04 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8636,7 +8634,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 176.53) (xy 336.55 171.45)
+			(xy 331.47 152.4) (xy 331.47 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8646,7 +8644,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 140.97) (xy 337.82 143.51)
+			(xy 332.74 116.84) (xy 332.74 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8726,7 +8724,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 156.21) (xy 199.39 156.21)
+			(xy 232.41 148.59) (xy 232.41 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4200370b-44d8-4ff6-93fa-eee6ec522bbb")
+	)
+	(wire
+		(pts
+			(xy 199.39 158.75) (xy 212.09 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8746,7 +8754,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 166.37) (xy 276.86 166.37)
+			(xy 252.73 166.37) (xy 276.86 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8776,7 +8784,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 153.67) (xy 204.47 153.67)
+			(xy 201.93 156.21) (xy 212.09 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8786,7 +8794,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 171.45) (xy 276.86 171.45)
+			(xy 252.73 171.45) (xy 276.86 171.45)
 		)
 		(stroke
 			(width 0)
@@ -8846,7 +8854,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 156.21) (xy 290.83 156.21)
+			(xy 252.73 156.21) (xy 290.83 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8886,7 +8894,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 175.26) (xy 167.64 171.45)
+			(xy 167.64 175.26) (xy 167.64 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8926,7 +8934,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 163.83) (xy 325.12 171.45)
+			(xy 320.04 139.7) (xy 320.04 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8966,17 +8974,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 139.7) (xy 232.41 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b5b24a8-afeb-430f-893b-d59bc64e99fc")
-	)
-	(wire
-		(pts
-			(xy 260.35 173.99) (xy 276.86 173.99)
+			(xy 252.73 173.99) (xy 276.86 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9036,7 +9034,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 179.07) (xy 189.23 224.79)
+			(xy 189.23 181.61) (xy 189.23 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9046,7 +9044,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 163.83) (xy 260.35 163.83)
+			(xy 276.86 163.83) (xy 252.73 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9166,16 +9164,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 163.83) (xy 185.42 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77cd2c65-1bd7-4030-b150-6850898b56ff")
-	)
-	(wire
-		(pts
 			(xy 214.63 227.33) (xy 213.36 227.33)
 		)
 		(stroke
@@ -9216,7 +9204,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 171.45) (xy 325.12 175.26)
+			(xy 320.04 147.32) (xy 320.04 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9226,13 +9214,23 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 195.58) (xy 335.28 195.58)
+			(xy 335.28 171.45) (xy 330.2 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c1ab5d2-73fa-4716-a97e-de0d0c79f6a6")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d539a23-e6d7-4e9a-92fe-028f0664f0bb")
 	)
 	(wire
 		(pts
@@ -9246,7 +9244,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 161.29) (xy 196.85 161.29)
+			(xy 196.85 163.83) (xy 212.09 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9276,7 +9274,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 161.29) (xy 196.85 116.84)
+			(xy 196.85 163.83) (xy 196.85 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9326,7 +9324,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 158.75) (xy 260.35 158.75)
+			(xy 266.7 158.75) (xy 252.73 158.75)
 		)
 		(stroke
 			(width 0)
@@ -9363,6 +9361,16 @@
 			(type default)
 		)
 		(uuid "8843b049-846f-4f4f-95f0-7c6f48dbac19")
+	)
+	(wire
+		(pts
+			(xy 175.26 168.91) (xy 175.26 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6a845d-5487-45f9-920a-0c851dbadc26")
 	)
 	(wire
 		(pts
@@ -9406,7 +9414,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 166.37) (xy 175.26 171.45)
+			(xy 175.26 166.37) (xy 175.26 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9416,7 +9424,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 195.58) (xy 335.28 198.12)
+			(xy 330.2 171.45) (xy 330.2 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9446,16 +9454,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 124.46 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96cb9193-32d6-47a1-8873-4ee9eabb9191")
-	)
-	(wire
-		(pts
 			(xy 209.55 119.38) (xy 213.36 119.38)
 		)
 		(stroke
@@ -9466,7 +9464,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 171.45) (xy 175.26 171.45)
+			(xy 167.64 168.91) (xy 175.26 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9546,16 +9544,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 156.21) (xy 311.15 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a15d7e-b900-4851-93ac-293a479946d9")
-	)
-	(wire
-		(pts
 			(xy 76.2 151.13) (xy 81.28 151.13)
 		)
 		(stroke
@@ -9616,7 +9604,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 165.1) (xy 335.28 163.83)
+			(xy 330.2 140.97) (xy 330.2 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9666,16 +9654,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 171.45) (xy 175.26 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19ccbf1-b4ec-462d-a343-1b7a486524e4")
-	)
-	(wire
-		(pts
 			(xy 151.13 130.81) (xy 161.29 130.81)
 		)
 		(stroke
@@ -9686,7 +9664,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 138.43) (xy 325.12 143.51)
+			(xy 320.04 114.3) (xy 320.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9776,16 +9754,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 180.34) (xy 317.5 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e36e92-efad-452f-9b85-bc25e1fd31c3")
-	)
-	(wire
-		(pts
 			(xy 90.17 71.12) (xy 64.77 71.12)
 		)
 		(stroke
@@ -9816,7 +9784,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 156.21) (xy 199.39 127)
+			(xy 199.39 158.75) (xy 199.39 127)
 		)
 		(stroke
 			(width 0)
@@ -9826,7 +9794,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 189.23) (xy 325.12 189.23)
+			(xy 331.47 165.1) (xy 320.04 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9866,7 +9834,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 201.93 153.67)
+			(xy 201.93 124.46) (xy 201.93 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9916,7 +9884,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 176.53) (xy 204.47 176.53)
+			(xy 191.77 179.07) (xy 212.09 179.07)
 		)
 		(stroke
 			(width 0)
@@ -10036,16 +10004,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 163.83) (xy 204.47 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d43267de-6115-4bc4-a081-3ff05d3c2471")
-	)
-	(wire
-		(pts
 			(xy 110.49 138.43) (xy 118.11 138.43)
 		)
 		(stroke
@@ -10096,7 +10054,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 173.99) (xy 194.31 219.71)
+			(xy 194.31 176.53) (xy 194.31 219.71)
 		)
 		(stroke
 			(width 0)
@@ -10136,7 +10094,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 217.17) (xy 196.85 171.45)
+			(xy 196.85 217.17) (xy 196.85 173.99)
 		)
 		(stroke
 			(width 0)
@@ -10376,7 +10334,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 171.45) (xy 325.12 171.45)
+			(xy 331.47 147.32) (xy 320.04 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10406,7 +10364,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 184.15) (xy 336.55 189.23)
+			(xy 331.47 160.02) (xy 331.47 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10456,7 +10414,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 179.07) (xy 189.23 179.07)
+			(xy 189.23 181.61) (xy 212.09 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10476,7 +10434,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 171.45) (xy 175.26 171.45)
+			(xy 175.26 168.91) (xy 212.09 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10534,6 +10492,16 @@
 		)
 		(uuid "ff898fde-0ea3-4a29-aa7c-0d4ac51f03e5")
 	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff901310-c31c-467e-9516-0d7a86e3d382")
+	)
 	(label "Line"
 		(at 55.88 26.67 0)
 		(effects
@@ -10546,7 +10514,7 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 335.28 198.12 180)
+		(at 330.2 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10555,8 +10523,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "005fb01c-9525-4357-b55d-6456892ddd65")
-		(property "Reference" "#PWR034"
-			(at 335.28 194.31 0)
+		(property "Reference" "#PWR045"
+			(at 330.2 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,7 +10535,7 @@
 			)
 		)
 		(property "Value" "Neutral"
-			(at 335.28 201.168 90)
+			(at 330.2 177.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10578,7 +10546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 198.12 0)
+			(at 330.2 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10589,7 +10557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 198.12 0)
+			(at 330.2 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10600,7 +10568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 335.28 198.12 0)
+			(at 330.2 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10616,7 +10584,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR034")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10633,7 +10601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "023eb11f-9450-4d78-9d73-55ebbeca8b30")
-		(property "Reference" "J7"
+		(property "Reference" "J3"
 			(at 49.022 22.352 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +10660,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10709,7 +10677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "027d010f-d2af-4faa-aa79-3003bf45716c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10769,7 +10737,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10787,7 +10755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0323ca39-d12f-499d-af06-3e54a09715a2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 106.68 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10847,7 +10815,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10856,6 +10824,7 @@
 	(symbol
 		(lib_id "Diode_Bridge:B80C800DM")
 		(at 124.46 64.77 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10864,8 +10833,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "038f10ea-ff3b-4905-9247-7c28c1c2eacd")
-		(property "Reference" "D1"
-			(at 114.3 54.356 0)
+		(property "Reference" "D5"
+			(at 110.744 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10875,7 +10844,7 @@
 			)
 		)
 		(property "Value" "B80C800DM"
-			(at 118.11 56.388 0)
+			(at 114.554 61.722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10885,7 +10854,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
-			(at 128.27 61.595 0)
+			(at 128.27 67.945 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10933,7 +10902,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10970,7 +10939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11051,7 +11020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08c910c2-9f1c-4a1b-bd83-24fb5af49442")
-		(property "Reference" "R28"
+		(property "Reference" "R25"
 			(at 269.24 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11073,7 +11042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 270.764 145.796 90)
 			(hide yes)
 			(show_name no)
@@ -11115,7 +11084,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R28")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11131,9 +11100,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d42233e-4a85-49fb-a4a8-3adbe4a598ae")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 266.7 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11144,14 +11112,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 266.7 113.03 0)
+		(property "Value" "+3.3V"
+			(at 264.668 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11193,7 +11162,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11230,7 +11199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -11302,7 +11271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 193.04 0)
+		(at 320.04 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11311,8 +11280,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f89324c-0b8e-4e45-9e9c-7f46a093b186")
-		(property "Reference" "#PWR042"
-			(at 325.12 199.39 0)
+		(property "Reference" "#PWR044"
+			(at 320.04 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11323,7 +11292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 196.85 0)
+			(at 320.04 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11333,7 +11302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 193.04 0)
+			(at 320.04 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11344,7 +11313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 193.04 0)
+			(at 320.04 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11355,7 +11324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 193.04 0)
+			(at 320.04 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,7 +11340,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11572,7 +11541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "195de2c7-600a-4473-962d-1b12d6d04839")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 295.91 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11632,7 +11601,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11649,7 +11618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c8db6f7-cac6-4722-a5a1-8a29c5bf9ee2")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 127.254 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +11640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.254 137.414 90)
 			(hide yes)
 			(show_name no)
@@ -11713,7 +11682,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11731,7 +11700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f17291f-84cc-44d7-bd5c-1e15feeea1f8")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 220.98 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11804,7 +11773,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11821,7 +11790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "219fecac-24ee-4143-ba27-33edc2320919")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 120.142 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11841,7 +11810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 118.11 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11905,7 +11874,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12005,7 +11974,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 345.44 165.1 0)
+		(at 340.36 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12015,8 +11984,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b564f46-1b40-4bc8-abd5-4174c62fcfd9")
-		(property "Reference" "J4"
-			(at 347.98 163.83 0)
+		(property "Reference" "J7"
+			(at 342.9 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12027,7 +11996,7 @@
 			)
 		)
 		(property "Value" "Load 1"
-			(at 347.98 166.37 0)
+			(at 342.9 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12038,7 +12007,7 @@
 			)
 		)
 		(property "Footprint" "DH_Hardware:Amp Faston 250 THT"
-			(at 345.44 165.1 0)
+			(at 340.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12049,7 +12018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 165.1 0)
+			(at 340.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12060,7 +12029,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 345.44 165.1 0)
+			(at 340.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12076,7 +12045,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12093,7 +12062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c7be572-e7e5-4bd6-a994-b0d20bf66880")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 76.2 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -12153,7 +12122,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR010")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12171,7 +12140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ca881ec-bdea-4be9-962e-46cddbc95df3")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 41.402 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12181,7 +12150,7 @@
 				)
 			)
 		)
-		(property "Value" "Load 1"
+		(property "Value" "Load 2"
 			(at 43.18 206.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12191,7 +12160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical"
+		(property "Footprint" "DH_Molex:389220002"
 			(at 41.91 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -12233,7 +12202,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12249,9 +12218,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2d6f6bc3-5732-4473-a480-82783891aa20")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR032"
 			(at 210.82 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -12262,15 +12230,14 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 203.2 229.87 90)
+		(property "Value" "+3.3V"
+			(at 201.422 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12312,7 +12279,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR045")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12328,9 +12295,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "31413b83-5764-48ab-92ba-d35439300fee")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 175.26 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12341,14 +12307,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 175.26 135.89 0)
+		(property "Value" "+3.3V"
+			(at 172.974 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12390,7 +12357,111 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR028")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4004")
+		(at 331.47 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "319e1413-0c65-4d21-a821-7bcc94f55744")
+		(property "Reference" "D13"
+			(at 334.01 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM4004"
+			(at 334.01 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 327.025 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 331.47 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, MELF"
+			(at 331.47 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 331.47 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 331.47 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feaee247-6d0f-410a-b118-683dd10f04a7")
+		)
+		(pin "2"
+			(uuid "f5aa2b59-16da-49dc-b69e-44332d20443f")
+		)
+		(instances
+			(project "Auto Drain"
+				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -12511,7 +12582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "349f72c2-83bf-40c7-9e2f-77a3eda3297d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 119.634 144.272 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12531,7 +12602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 118.11 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12595,7 +12666,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12634,7 +12705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.424 150.114 90)
 			(hide yes)
 			(show_name no)
@@ -12694,7 +12765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36edfca4-d055-4400-82ae-02744a66cfe4")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 149.86 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12754,7 +12825,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12771,7 +12842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37cbecaa-e992-48dc-aa7e-8910df504f9b")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 153.924 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12857,7 +12928,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U4")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -12874,7 +12945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37f1b514-5ace-4063-a3f9-5680178805af")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR031"
 			(at 196.85 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12885,7 +12956,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 196.85 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12934,7 +13005,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR040")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12951,7 +13022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "396c370d-0d8d-4a9e-aa72-774a401752a0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13011,7 +13082,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13028,7 +13099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c54fc9a-2f67-4beb-984a-2d1d83e3dac8")
-		(property "Reference" "R1"
+		(property "Reference" "R18"
 			(at 167.894 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13050,7 +13121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.386 73.914 90)
 			(hide yes)
 			(show_name no)
@@ -13092,7 +13163,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13186,7 +13257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e5f21b1-accf-478c-82be-2a39a3691926")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR039"
 			(at 232.41 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13246,7 +13317,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR032")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13264,7 +13335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ebc3ebb-e874-4139-af44-cc67f47af1e7")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 147.32 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13330,7 +13401,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -13346,9 +13417,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3f5eaf68-f651-417f-9cdc-2c8a6fcfc146")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 175.26 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -13359,14 +13429,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 175.26 232.41 0)
+		(property "Value" "+3.3V"
+			(at 173.228 231.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -13408,7 +13479,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13445,7 +13516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13526,7 +13597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43e59d01-5543-4380-955b-44c226b804dd")
-		(property "Reference" "J9"
+		(property "Reference" "J5"
 			(at 49.022 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13585,7 +13656,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J9")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13602,7 +13673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b4b041a-e2db-40fa-87ea-b36a05d67a53")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 136.144 206.502 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13624,7 +13695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.636 203.454 90)
 			(hide yes)
 			(show_name no)
@@ -13666,7 +13737,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13683,7 +13754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bb66711-4f46-48d1-b1d7-6b4c8b65af9d")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 82.804 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13705,7 +13776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.296 159.004 90)
 			(hide yes)
 			(show_name no)
@@ -13747,7 +13818,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13764,7 +13835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d5ed29-aa7c-4e37-b6e7-b9dd4fe9ed2f")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 109.728 207.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13850,7 +13921,90 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U4")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LT1117-3.3")
+		(at 147.32 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54634576-9e57-47d2-8bbe-f7cb72d0f4c2")
+		(property "Reference" "U9"
+			(at 147.32 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1117-3.3"
+			(at 147.32 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
+			(at 147.32 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
+			(at 147.32 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223/TO-263"
+			(at 147.32 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd310389-295c-44a1-89b9-d8cda2ee318e")
+		)
+		(pin "3"
+			(uuid "8169aeda-1371-4f33-9927-54cf4ff2fa94")
+		)
+		(pin "2"
+			(uuid "30e7fb63-a16b-46f0-846e-83ad4bf41bbe")
+		)
+		(instances
+			(project "Auto Drain"
+				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -13868,7 +14022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56a60340-c5e1-4498-988f-5f2c9a7315e5")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 41.402 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13888,7 +14042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical"
+		(property "Footprint" "DH_Molex:389220002"
 			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -13930,7 +14084,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13947,7 +14101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b7bc061-fa7e-4999-8818-82adb7c0b184")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 134.62 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14007,7 +14161,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14024,7 +14178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c56d0fc-9d7a-4b41-9c4f-797651eb8a25")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR037"
 			(at 224.79 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -14084,7 +14238,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR043")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14123,7 +14277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.894 153.924 90)
 			(hide yes)
 			(show_name no)
@@ -14182,7 +14336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d2d4b21-4de7-47c9-97c3-c4caefea9c1d")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 135.636 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14204,7 +14358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
 			(at 134.62 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14246,7 +14400,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14262,9 +14416,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d8506d1-8ff4-41f6-879f-31d4eeb95a5d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR024"
 			(at 166.37 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14275,14 +14428,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 166.37 22.86 0)
+		(property "Value" "+3.3V"
+			(at 164.338 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14324,7 +14478,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14332,7 +14486,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 345.44 195.58 0)
+		(at 340.36 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14342,8 +14496,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa0e944-f0bf-4e01-bb20-ea84069a4b2d")
-		(property "Reference" "J6"
-			(at 347.98 194.31 0)
+		(property "Reference" "J8"
+			(at 342.9 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14354,7 +14508,7 @@
 			)
 		)
 		(property "Value" "Load 2"
-			(at 347.98 196.85 0)
+			(at 342.9 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14365,7 +14519,7 @@
 			)
 		)
 		(property "Footprint" "DH_Hardware:Amp Faston 250 THT"
-			(at 345.44 195.58 0)
+			(at 340.36 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14376,7 +14530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 195.58 0)
+			(at 340.36 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14387,7 +14541,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 345.44 195.58 0)
+			(at 340.36 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14403,7 +14557,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14420,7 +14574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6057d2d9-afa9-4ff0-88dc-e1aba8b22656")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 81.28 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14480,7 +14634,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14488,7 +14642,7 @@
 	)
 	(symbol
 		(lib_id "Relay:RAYEX-L90A")
-		(at 330.2 153.67 0)
+		(at 325.12 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14499,7 +14653,7 @@
 		(fields_autoplaced yes)
 		(uuid "61d867ca-0304-4e19-8ff1-1978c444bb91")
 		(property "Reference" "K1"
-			(at 341.63 152.4 0)
+			(at 336.55 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14510,7 +14664,7 @@
 			)
 		)
 		(property "Value" "RAYEX-L90A"
-			(at 341.63 154.94 0)
+			(at 336.55 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14521,7 +14675,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST_RAYEX-L90A"
-			(at 341.63 154.94 0)
+			(at 336.55 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14533,7 +14687,7 @@
 			)
 		)
 		(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-			(at 347.98 157.48 0)
+			(at 342.9 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14545,7 +14699,7 @@
 			)
 		)
 		(property "Description" "Power relay, NO, SPST, 30A"
-			(at 330.2 153.67 0)
+			(at 325.12 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14590,7 +14744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "629da8d0-f0b1-41df-bf84-a5068529096a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 166.37 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14650,7 +14804,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14667,7 +14821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6772d1c2-11ca-4c32-a222-9d600e38a452")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 89.154 226.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14689,7 +14843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.646 223.774 90)
 			(hide yes)
 			(show_name no)
@@ -14731,7 +14885,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14748,7 +14902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68183d1c-559f-49b8-871a-73e12ebf29e8")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 192.532 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14770,7 +14924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 195.834 110.236 90)
 			(hide yes)
 			(show_name no)
@@ -14812,7 +14966,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R30")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14829,7 +14983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b0b6d09-251b-499f-88ec-6f3f151ce22c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR034"
 			(at 209.55 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14889,7 +15043,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR039")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14907,7 +15061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc173ff-2e48-4d79-b1e9-8208a9b746fb")
-		(property "Reference" "T1"
+		(property "Reference" "T3"
 			(at 94.401 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14987,7 +15141,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "T1")
+					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -15004,7 +15158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dc62c3f-68d4-412d-b80c-826904210011")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 82.804 220.472 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15026,7 +15180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.296 217.424 90)
 			(hide yes)
 			(show_name no)
@@ -15068,7 +15222,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15085,7 +15239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ed166cb-fbd8-4cdc-ae09-348549f2c025")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 49.022 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15144,7 +15298,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15161,7 +15315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fde1e4d-a71d-4d7a-af90-788236ec28e9")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 150.876 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15181,7 +15335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 147.32 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -15223,7 +15377,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15309,7 +15463,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 322.58 180.34 0)
+		(at 317.5 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15320,7 +15474,7 @@
 		(fields_autoplaced yes)
 		(uuid "72ded23e-954f-48b8-8b19-ac2307f13a48")
 		(property "Reference" "Q1"
-			(at 327.66 179.07 0)
+			(at 322.58 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15331,7 +15485,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 327.66 181.61 0)
+			(at 322.58 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15342,7 +15496,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 327.66 182.245 0)
+			(at 322.58 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15355,7 +15509,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 322.58 180.34 0)
+			(at 317.5 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15367,7 +15521,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 322.58 180.34 0)
+			(at 317.5 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15378,7 +15532,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 322.58 180.34 0)
+			(at 317.5 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15389,7 +15543,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 322.58 180.34 0)
+			(at 317.5 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15428,7 +15582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73197d7a-9719-4dd5-a71f-1e51a37cd1c1")
-		(property "Reference" "T3"
+		(property "Reference" "T2"
 			(at 59.182 203.708 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15558,7 +15712,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "T3")
+					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -15575,7 +15729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73e9d008-f25e-452f-84cd-97cc0214498c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -15635,7 +15789,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15652,7 +15806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76943462-5f17-429d-96b8-99df02c01c02")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 167.64 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15712,7 +15866,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15729,7 +15883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76cadf18-2196-4bed-85ca-a9602ae8b3f1")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 136.144 168.402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15751,7 +15905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.636 165.354 90)
 			(hide yes)
 			(show_name no)
@@ -15793,7 +15947,143 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R10")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Microchip_PIC16:PIC16F18346-SO")
+		(at 232.41 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c00f80b-3268-4a1b-8c37-ca847515fdd1")
+		(property "Reference" "U7"
+			(at 234.6751 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PIC16F18346-SO"
+			(at 234.6751 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+			(at 232.156 188.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/40001839B.pdf"
+			(at 232.41 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16384W FLASH, 2048B RAM, 256B EEPROM, SOIC-20"
+			(at 232.41 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "4436df73-8e91-41e7-9e39-64b47ad50f48")
+		)
+		(pin "16"
+			(uuid "d78d9c00-2275-40df-9ddf-c08edec76dfc")
+		)
+		(pin "18"
+			(uuid "aae8f40d-cfac-43ed-8d2b-a798bcb7e212")
+		)
+		(pin "14"
+			(uuid "8d270d6d-599a-44e6-a387-c0b7ccbdef38")
+		)
+		(pin "3"
+			(uuid "4b9a4631-ae3e-40af-862e-e2e2968ff415")
+		)
+		(pin "1"
+			(uuid "e532e1ce-651c-4167-b9ff-18e002b3b2cb")
+		)
+		(pin "13"
+			(uuid "0f69f8e0-db6d-460c-94f5-7ddaf610f7b5")
+		)
+		(pin "20"
+			(uuid "d0319bea-c595-481c-9a93-028d8dc88c28")
+		)
+		(pin "10"
+			(uuid "0d35385b-376d-4df0-b796-54234206b048")
+		)
+		(pin "19"
+			(uuid "c558a30a-2d2b-4b3e-8618-4e4759048df2")
+		)
+		(pin "11"
+			(uuid "fc6bb234-4bab-41ab-820f-84a524d624a8")
+		)
+		(pin "5"
+			(uuid "50ce6b12-88db-4270-aa96-06197528b3c5")
+		)
+		(pin "17"
+			(uuid "311a08e8-e7c5-4295-98f6-d1ac1e33fd6b")
+		)
+		(pin "8"
+			(uuid "41f84043-b458-434a-b20a-e32993659513")
+		)
+		(pin "2"
+			(uuid "5d40a0f8-9d65-4a7b-a67a-ecde9d87231a")
+		)
+		(pin "12"
+			(uuid "eedc17fa-29d8-4a36-a402-ad4f29a79e01")
+		)
+		(pin "15"
+			(uuid "ccc8b8f3-ffcd-4dc7-8e76-3c9f37da3ede")
+		)
+		(pin "7"
+			(uuid "92263676-24d1-4afd-9445-0e1626ccc239")
+		)
+		(pin "4"
+			(uuid "8c38f836-2c83-43ba-9844-1cf06936a2d7")
+		)
+		(pin "6"
+			(uuid "8b2c09cb-7031-4fd3-87b0-aa64ea020fa6")
+		)
+		(instances
+			(project "Auto Drain"
+				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -15810,7 +16100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8023a9d1-5d7d-41ab-9148-fffde1163e09")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 158.75 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15870,7 +16160,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15878,7 +16168,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 325.12 138.43 0)
+		(at 320.04 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15887,8 +16177,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80873e27-ecce-4ff1-a28e-3e4f258fcabb")
-		(property "Reference" "#PWR035"
-			(at 325.12 142.24 0)
+		(property "Reference" "#PWR043"
+			(at 320.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15899,7 +16189,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 325.374 134.874 0)
+			(at 320.294 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15909,7 +16199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 138.43 0)
+			(at 320.04 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15920,7 +16210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 138.43 0)
+			(at 320.04 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15931,7 +16221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 325.12 138.43 0)
+			(at 320.04 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15947,7 +16237,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR035")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15964,7 +16254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "811ace05-7c70-4128-bbcc-1b0a5c016c06")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 89.154 168.402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15986,7 +16276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.646 165.354 90)
 			(hide yes)
 			(show_name no)
@@ -16028,7 +16318,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16045,7 +16335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8297de9e-9d5d-4855-a347-4d2254d49406")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 159.766 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16067,7 +16357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm"
 			(at 158.75 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16109,7 +16399,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16126,7 +16416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84181e24-a6e8-4d5a-b6b1-007e1f61cca0")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 136.144 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16148,7 +16438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.636 145.034 90)
 			(hide yes)
 			(show_name no)
@@ -16190,7 +16480,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16207,7 +16497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8904c602-a8d4-4c58-bcc9-ad1ff2da5044")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 106.68 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16267,7 +16557,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16284,7 +16574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a15ab93-461d-46fd-be63-3c2d2e7ecea6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR033"
 			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16295,7 +16585,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 209.55 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16344,7 +16634,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR038")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16361,7 +16651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a23f31e-71c6-4df9-a253-6500020f825e")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 168.91 209.042 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16383,7 +16673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.894 212.344 90)
 			(hide yes)
 			(show_name no)
@@ -16425,7 +16715,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -16442,7 +16732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b7154ea-3885-43cf-9183-ee0f5548c561")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 148.844 192.532 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16464,7 +16754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 148.844 195.834 90)
 			(hide yes)
 			(show_name no)
@@ -16506,7 +16796,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -16523,7 +16813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bb5ebfb-99e7-4e43-b0f9-80377e7a5809")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 148.844 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16545,7 +16835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 148.844 137.414 90)
 			(hide yes)
 			(show_name no)
@@ -16587,7 +16877,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16604,7 +16894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c827572-d3be-4769-8096-827e2783b149")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 159.766 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16626,7 +16916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm"
 			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16668,7 +16958,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16706,7 +16996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 247.65 234.315 90)
 			(hide yes)
 			(show_name no)
@@ -16801,7 +17091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f5378f2-1d65-4a9d-b9e0-64098f1510dc")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 107.442 192.786 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16823,7 +17113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 106.934 195.834 90)
 			(hide yes)
 			(show_name no)
@@ -16865,7 +17155,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16882,7 +17172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90638df3-7c9a-462d-87ee-40b914c2c86d")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 128.27 192.532 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16904,7 +17194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.254 195.834 90)
 			(hide yes)
 			(show_name no)
@@ -16946,7 +17236,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16963,7 +17253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "951e78b4-92fe-4632-8ce1-3b1226eccced")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 91.44 205.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16985,7 +17275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.424 208.534 90)
 			(hide yes)
 			(show_name no)
@@ -17027,7 +17317,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R13")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -17044,7 +17334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "979c633e-8568-473e-8e70-421cc2a3a362")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR015"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17104,143 +17394,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_Microchip_PIC16:PIC16F1829-ISS")
-		(at 232.41 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98f01476-e02a-4078-8561-6ec9947e473a")
-		(property "Reference" "U6"
-			(at 234.6751 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PIC16F1829-ISS"
-			(at 234.6751 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
-			(at 232.41 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/41440C.pdf"
-			(at 232.41 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Flash-Based, 8-Bit CMOS Microcontrollers, SSOP"
-			(at 232.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "1e439f2e-2b49-49ad-b0de-8bf97f3628e4")
-		)
-		(pin "16"
-			(uuid "424a80bb-e523-445a-81cb-759b38528261")
-		)
-		(pin "11"
-			(uuid "43f5d1b6-743c-46f3-972f-1363c8578cd1")
-		)
-		(pin "7"
-			(uuid "821599ec-8492-418b-9acb-ff016b94ec4b")
-		)
-		(pin "6"
-			(uuid "f63f36ea-fc56-4b52-aabd-0ef4171c2bcb")
-		)
-		(pin "17"
-			(uuid "965d8aa8-4715-42c2-ae38-9df24388fd33")
-		)
-		(pin "15"
-			(uuid "c0d18634-b000-4bc3-ae86-fde40cd97b88")
-		)
-		(pin "14"
-			(uuid "e2160c7b-769f-438f-ab15-7a7988d100f3")
-		)
-		(pin "1"
-			(uuid "18b3eb89-e3e1-4b94-8013-b09b8c4c578a")
-		)
-		(pin "4"
-			(uuid "e831b299-0af3-43ff-99c4-963869f39486")
-		)
-		(pin "12"
-			(uuid "b010adc9-bf50-419f-b1de-609d45302207")
-		)
-		(pin "9"
-			(uuid "ecbcd4ad-46f2-4bc7-b626-4d05f9552ac1")
-		)
-		(pin "13"
-			(uuid "a56dba24-b1de-4b83-ac64-567ee3ce881c")
-		)
-		(pin "3"
-			(uuid "7caf6884-3578-4fac-8d4b-0089a4fad81a")
-		)
-		(pin "2"
-			(uuid "2e71ac70-f7a9-41b6-9a12-6a498b6d47af")
-		)
-		(pin "8"
-			(uuid "396e071c-e893-4a43-a3ee-1ed2cd2dbbae")
-		)
-		(pin "10"
-			(uuid "c88a3218-d777-4640-af4c-8b8bdddc8773")
-		)
-		(pin "20"
-			(uuid "95647372-835e-4311-ba5b-f07cd6df6890")
-		)
-		(pin "18"
-			(uuid "1fba62db-25ce-4778-b0b3-1e2b844c29f6")
-		)
-		(pin "19"
-			(uuid "73649a47-8e29-4a06-af66-00f0ea4f3fd2")
-		)
-		(instances
-			(project "Auto Drain"
-				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U6")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17257,7 +17411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9adbe257-9a39-481e-b6ea-fe9546b9233e")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 109.728 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17277,7 +17431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DPackage_DIP:DIP-8_W7.62mm_LongPadsIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 101.6 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -17343,7 +17497,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17361,7 +17515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bde806c-3bb9-4de4-882f-2b09c63aa565")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 147.32 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17427,7 +17581,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -17444,7 +17598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a81df632-48a0-4ecb-a89c-4ae911b1657e")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 120.142 223.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17464,7 +17618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 118.11 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -17528,7 +17682,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -17545,7 +17699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab0fbc13-3cd0-4fe8-86e1-2a2caa626068")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR013"
 			(at 106.68 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -17605,7 +17759,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR019")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17622,7 +17776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "accc3623-c86f-4a66-bf4d-e9ba633f3ca0")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR035"
 			(at 209.55 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -17682,7 +17836,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR046")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17699,7 +17853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1f7875e-eac6-465c-8c34-5f4dd3d75be1")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 167.894 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17721,7 +17875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.386 94.234 90)
 			(hide yes)
 			(show_name no)
@@ -17763,7 +17917,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17780,7 +17934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4cedf1a-4e90-4f9b-b893-81c5d029371c")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 159.766 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17802,7 +17956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17844,91 +17998,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 147.32 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4e19ce4-a2ed-4937-9abc-0062d0a771fc")
-		(property "Reference" "U5"
-			(at 147.32 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7805_TO220"
-			(at 147.32 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 147.32 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 147.32 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 147.32 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f747a3c5-8898-423e-8b89-876a13d812cd")
-		)
-		(pin "1"
-			(uuid "7b678177-7902-4751-b7d9-cb25fd8a9af9")
-		)
-		(pin "3"
-			(uuid "e35fc872-d1ac-4ba5-ab4d-27120f813f7e")
-		)
-		(instances
-			(project "Auto Drain"
-				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18023,7 +18093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be3eea71-160e-412f-bd78-8dbb5e5dd818")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR04"
 			(at 81.28 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18083,7 +18153,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR011")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18120,7 +18190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -18201,7 +18271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c42d58ce-4909-4440-b758-e0ac1e8b6455")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR06"
 			(at 87.63 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18261,7 +18331,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18300,7 +18370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
 			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -18359,7 +18429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9542199-efe2-4a8f-bdd5-9d976784f844")
-		(property "Reference" "R27"
+		(property "Reference" "R24"
 			(at 264.16 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18381,7 +18451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 265.684 145.796 90)
 			(hide yes)
 			(show_name no)
@@ -18423,7 +18493,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R27")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -18518,7 +18588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf7678ff-a9dc-43b2-9f84-59b91ad5150a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR041"
 			(at 278.13 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -18578,7 +18648,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR044")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18595,7 +18665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfe8c9f3-336c-4fff-ad53-ab789b871282")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 106.68 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18617,7 +18687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 106.934 137.414 90)
 			(hide yes)
 			(show_name no)
@@ -18659,7 +18729,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18676,7 +18746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3a8fde0-816f-45ef-91ea-005cc564622e")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 150.876 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18696,7 +18766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 147.32 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -18738,7 +18808,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18746,7 +18816,7 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 337.82 140.97 0)
+		(at 332.74 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18755,8 +18825,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d46b32a4-a844-45a4-9000-3d37c4d78c32")
-		(property "Reference" "#PWR033"
-			(at 337.82 144.78 0)
+		(property "Reference" "#PWR046"
+			(at 332.74 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18767,7 +18837,7 @@
 			)
 		)
 		(property "Value" "Line"
-			(at 337.82 137.922 90)
+			(at 332.74 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18778,7 +18848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 140.97 0)
+			(at 332.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18789,7 +18859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 140.97 0)
+			(at 332.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18800,7 +18870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 337.82 140.97 0)
+			(at 332.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18816,7 +18886,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR033")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18824,7 +18894,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 232.41 139.7 0)
+		(at 232.41 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18832,10 +18902,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d49d3f07-9a35-4072-b5be-71aab4ff5b01")
-		(property "Reference" "#PWR031"
-			(at 232.41 143.51 0)
+		(property "Reference" "#PWR038"
+			(at 232.41 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18845,18 +18914,19 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 232.41 134.62 0)
+		(property "Value" "+3.3V"
+			(at 230.378 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 139.7 0)
+			(at 232.41 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18867,7 +18937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 139.7 0)
+			(at 232.41 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18878,7 +18948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 139.7 0)
+			(at 232.41 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18894,7 +18964,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR031")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18912,7 +18982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d68dfed4-15e8-41a9-bbf9-5514797e0c3a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 149.86 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -18972,7 +19042,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR013")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18989,7 +19059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6931eae-7e9b-4bad-80d1-ec1da8f54818")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR018"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -19049,7 +19119,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR024")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -19066,7 +19136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7af8b14-640e-4af9-ba27-37a1da472364")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 60.198 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19128,7 +19198,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -19145,7 +19215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db892786-638e-4952-bf82-d0f2514bb60a")
-		(property "Reference" "F1"
+		(property "Reference" "F2"
 			(at 78.74 22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19207,7 +19277,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "F1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -19223,7 +19293,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd1e4d3a-9350-4259-8840-1d57042fd5b8")
 		(property "Reference" "#PWR036"
 			(at 224.79 210.82 0)
@@ -19236,14 +19305,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 224.79 201.93 0)
+		(property "Value" "+3.3V"
+			(at 222.504 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19302,7 +19372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e05b6706-560d-49b8-af79-94cab1f95e1a")
-		(property "Reference" "R29"
+		(property "Reference" "R26"
 			(at 274.32 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19324,7 +19394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 275.844 145.796 90)
 			(hide yes)
 			(show_name no)
@@ -19366,7 +19436,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R29")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -19383,7 +19453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0dfb1fe-b034-4461-a531-bf0daa62ef8e")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 167.894 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19405,7 +19475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.386 38.354 90)
 			(hide yes)
 			(show_name no)
@@ -19447,7 +19517,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -19465,7 +19535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e346b832-2b25-4cf1-aac7-241d3467bce7")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR027"
 			(at 166.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -19525,7 +19595,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR05")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -19639,7 +19709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e786d7f8-c710-424c-8cf8-1ad07858b055")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR03"
 			(at 76.2 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -19699,7 +19769,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR016")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -19716,7 +19786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8798145-50bc-476d-b584-fa39922afdad")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 149.86 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -19776,7 +19846,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -19793,7 +19863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2065cf3-c546-4631-8dd8-c2fb71966c3c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 87.63 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -19853,7 +19923,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19871,7 +19941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f593efa7-f7f1-4519-b0e3-cfd661ca1ec9")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 227.0551 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19893,7 +19963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 224.79 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -19977,7 +20047,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -19994,7 +20064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8dcf45f-56e8-4675-8c11-6107c84558de")
-		(property "Reference" "R17"
+		(property "Reference" "R14"
 			(at 136.144 226.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20016,7 +20086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.636 223.774 90)
 			(hide yes)
 			(show_name no)
@@ -20058,7 +20128,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R17")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -20075,7 +20145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc19f989-c57c-4283-8b36-cc24f06130a8")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 153.924 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20095,7 +20165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DPackage_DIP:DIP-8_W7.62mm_LongPadsIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 144.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20161,7 +20231,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -20178,7 +20248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc7acfdb-d417-4f8c-9a12-08db9f1b741d")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 165.1 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20200,7 +20270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.624 178.816 90)
 			(hide yes)
 			(show_name no)
@@ -20242,7 +20312,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20259,7 +20329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc9bfac8-5279-422e-a2cf-049ff6dae0c8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR026"
 			(at 166.37 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -20319,111 +20389,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4004")
-		(at 336.55 180.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fea04b2b-7691-415d-a88c-eb0fdbf94752")
-		(property "Reference" "D13"
-			(at 339.09 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 339.09 181.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 332.105 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 336.55 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 336.55 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 336.55 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 336.55 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0d76e107-b5a8-4e63-984b-9db8bc57d7f8")
-		)
-		(pin "1"
-			(uuid "914ddd9e-592e-4d3b-a022-67f05b8df3f1")
-		)
-		(instances
-			(project "Auto Drain"
-				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "D13")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -20440,7 +20406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff33ca9f-4b4f-4462-830f-34e005ce4a26")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 119.634 202.692 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20460,7 +20426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 118.11 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -20524,7 +20490,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -20541,7 +20507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff37d5f7-59bb-4545-9b80-7e461c0a7773")
-		(property "Reference" "R31"
+		(property "Reference" "R27"
 			(at 292.608 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20563,7 +20529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 294.386 157.226 90)
 			(hide yes)
 			(show_name no)
@@ -20605,7 +20571,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "R31")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -20622,7 +20588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffaff7e9-b59f-4e08-92b6-8667992a5eb6")
-		(property "Reference" "T2"
+		(property "Reference" "T1"
 			(at 59.182 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20752,7 +20718,7 @@
 		(instances
 			(project "Auto Drain"
 				(path "/5fcaceef-abd6-41d1-9a71-738e0c0e1611"
-					(reference "T2")
+					(reference "T1")
 					(unit 1)
 				)
 			)
